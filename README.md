@@ -28,17 +28,57 @@ Next state of D flip-flop is always equal to data input, D for every positive tr
 
 **Procedure**
 
-/* write all the steps invloved */
+1. Start a New Project in Quartus:
+
+  • Open Quartus Prime and create a new project.
+   
+  • Define the project name and directory location.
+  
+2. Write the Verilog Code for the D Flip-Flop:
+
+  • Use a positive edge-triggered approach to model the D flip-flop in Verilog.
+  
+  • The value of the output should change based on the D input during the positive clock edge.
+
+3. Compile and Simulate:
+
+  • Compile the design and run the simulation in Quartus.
+  
+  • Observe the output waveform to verify the functionality of the D flip-flop.
+
+4. Analyze the Results:
+
+  • Ensure that the output Q follows the D input at each positive clock edge, and holds the value between clock edges.
+
 
 **PROGRAM**
 
-/* Program for flipflops and verify its truth table in quartus using Verilog programming. Developed by: RegisterNumber:
-*/
+
+![d_flipflop_code](https://github.com/user-attachments/assets/bbf4744e-4a4d-4466-a6d6-9fbddc44200b)
+
 
 **RTL LOGIC FOR FLIPFLOPS**
+
 
 
 **TIMING DIGRAMS FOR FLIP FLOPS**
 
 
+
+![d_flipflop_waveform](https://github.com/user-attachments/assets/8f7bea7f-4830-431c-94cb-737f9ed54acb)
+
+
+
+
+
 **RESULTS**
+
+• The Verilog code for the D flip-flop works correctly according to the truth table.
+
+• The simulation results match the expected behavior of the D flip-flop. 
+ 
+• The output waveform from the simulation will show that Q follows D on every positive clock edge, and holds the value when the clock is not transitioning.
+
+• The functionality of the D flip-flop is validated using the simulation and timing diagram.
+
+
